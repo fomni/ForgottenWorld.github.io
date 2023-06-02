@@ -1,0 +1,20 @@
+[
+  {
+    "text": "Sample text 1",
+    "image": "/Icons/itchicon.png",
+    "date": "2023-06-01",
+    "link": "https://example.com"
+  },
+  {
+    "text": "Sample text 2",
+    "image": "/Icons/itchicon.png",
+    "date": "2023-06-02",
+    "link": "https://example.com"
+  },
+  {
+    "text": "Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3Sample text 3",
+    "image": "/Icons/itchicon.png",
+    "date": "2023-06-03",
+    "link": "https://example.com"
+  }
+]

@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1b2838;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #171a21;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 30px;
+}
+
+nav a {
+  color: #c6d4df;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about {
+  width: 930px;
+  height: 200px;
+  background-color: #1a2231;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #fff; /* Added white line at the bottom */
+}
+
+#social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+#social-media img {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+#social-media img:hover {
+  transform: scale(1.2);
+}
+
+#sponsors {
+  width: 930px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #1a2231;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#sponsor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.sponsor {
+  display: inline-block;
+  margin: 40px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.sponsor img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.sponsor:hover {
+  transform: scale(1.05);
+}
+
+.sponsor-details {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1a2231;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.sponsor:hover .sponsor-details {
+  display: block;
+}
+
+.sponsor-details h3 {
+  color: #fff;
+  margin: 0;
+}
+
+.sponsor-details p {
+  color: #c6d4df;
+  margin: 0;
+}
+
+#latest-releases {
+  
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  background-color: #1a2231;
+
+  border-radius: 10px;
+  text-align: center;
+  border-bottom: 2px solid #fff; /* Added white line at the bottom */
+}
+
+.release-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.game-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px; /* Added margin to push the .game-icons away from the screenshot */
+}
+
+.game-icon img {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+.game-icon img:hover {
+  transform: scale(1.1);
+}
+.screenshot-image {
+   border-radius: 10px;
+}
+#game-details {
+  background-color: #1a2231;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: none;
+  border-bottom: 2px solid #fff; /* Added white line at the bottom */
+}
+
+.game-details-container {
+  position: relative;
+  padding-bottom: 20px; /* Space for the image */
+}
+
+.game-details-container h3 {
+  color: #fff;
+  margin: 0;
+  padding-bottom: 20px; 
+}
+
+.game-details-container p {
+  position: relative;
+  max-width: 90%;
+  word-wrap: break-word;
+  color: #c6d4df;
+  margin: 0;
+}
+
+.game-details-container img {
+  position: absolute;
+  bottom: 30%;
+  right: 20px;
+  width: 50px; /* Adjust the size as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+.game-details-container:hover img {
+  transform: scale(1.1);
+}
+.logo{
+  width: 50px;
+  height: 50px; 
+}
+footer {
+  background-color: #171a21;
+  padding: 20px;
+  text-align: center;
+  color: #c6d4df;
+  margin-top: auto; /* Pushes the footer to the bottom of the page */
+}

@@ -1,0 +1,17 @@
+[
+    {
+      "id": "sponsor1",
+      "name": "Sponsor 1",
+      "image": "/Icons/Square_200x200.png",
+      "description": "This is a test and some kind of shit",
+      "link": "https://www.sponsor1.com"
+      
+    },
+    {
+      "id": "sponsor2",
+      "name": "Sponsor 2",
+      "image": "/Icons/Square_200x200.png",
+      "description": "This is a test and some kind of shit",
+      "link": "https://www.sponsor2.com"
+    }
+  ]

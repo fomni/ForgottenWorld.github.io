@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/MainPage/styles.css">
+  <title>news</title>
+  <header>
+    <img src="/Icons/Square_200x200.png" alt="Logo" class="logo" id="logo">
+    <nav>
+      <a href="/MainPage/index.html">Home</a>
+      <a href="/NewsPageFolder/NewsPage">News</a>
+    </nav>
+  </header>
+</head>
+
+<body>
+  <h1 style="margin-bottom: 30px; margin-top: 60px;">Latest News About Game Boosters!</h1>
+
+  <div id="cardContainer" style="margin-top: 20px;"></div>
+
+  <script src="script.js"></script>
+  <footer>
+    &copy; 2023 Indie Game Developer
+  </footer>
+</body>
+
+</html>
